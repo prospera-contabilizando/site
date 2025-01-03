@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #18453b;
+    color: rgb(240, 236, 32);
+    padding: 20px 0;
+}
+img{
+    width: 23px;
+    height: 23px;
+    float: right;
+}
+img :hover{
+    background-color: #71bc78;
+    color: #71bc78;
+    transform: scale(1.2)
+}
+header h1 {
+    text-align: center;
+    font-size: 2rem;
+    padding: 30px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+    color: rgb(240, 236, 32);
+    transition: background-color 1.0s ease, color 1.0s ease, transform 1.0s ease;
+}
+nav ul li:hover{ 
+    background-color: #71bc78;
+    color: #71bc78;
+    transform: scale(1.2)
+}
+
+nav ul li a {
+    color: #e6c11d;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+#hero {
+    background-color: #9dff00;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+    border: solid 1px blue;
+    border-radius: 20px;
+    color: blue;
+    background-color: white;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+}
+
+#servicos, #sobre, #contato {
+    padding: 50px 0;
+    background-color: rgb(255, 255, 255);
+    margin-top: 20px;
+    border: solid 1px #26977f;
+    border-radius: 20px;
+    color: #355e3b;
+    background-color: white;
+}
+
+#servicos .servico {
+    margin-bottom: 30px;
+}
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+p {
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 1rem;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #ffffff;
+}
+
+footer {
+    background-color: #18453b;
+    color: rgb(216, 216, 216);
+    padding: 10px 0;
+    text-align: center;
+}
