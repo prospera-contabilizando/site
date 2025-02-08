@@ -138,3 +138,9 @@ footer {
 button[type="submit"] {
     background-color: #26977f;
 }
+
+.links {
+    display: flex;
+    justify-content: end;
+    gap: 1rem;
+}
