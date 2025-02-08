@@ -134,3 +134,7 @@ footer {
     padding: 10px 0;
     text-align: center;
 }
+
+button[type="submit"] {
+    background-color: #26977f;
+}
